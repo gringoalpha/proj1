@@ -5,5 +5,7 @@ RUN apt-get install -y wget
 RUN wget https://apt.puppetlabs.com/puppetlabs-release-trusty.deb
 RUN dpkg -i puppetlabs-release-trusty.deb
 RUN apt-get install -y puppet
+
 RUN sudo apt-get install -y puppet-lint
+
 
